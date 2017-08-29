@@ -39,10 +39,10 @@
 }
 
 
-//- (void)changeBackgroundColorToRed
-//{
-//    self.view.backgroundColor = [UIColor redColor];
-//}
+- (void)changeBackgroundColorToRed
+{
+    self.view.backgroundColor = [UIColor redColor];
+}
 
 
 @end
