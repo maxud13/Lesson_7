@@ -70,15 +70,25 @@
                                     <action selector="GangeColorInViewController:" destination="xdH-mF-aoq" eventType="touchUpInside" id="oAd-H7-f6R"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3na-ze-eCQ">
+                                <rect key="frame" x="31" y="398" width="313" height="30"/>
+                                <state key="normal" title="Покрасить в красный цвет первый экран"/>
+                                <connections>
+                                    <action selector="ChangeColorToRedAction:" destination="xdH-mF-aoq" eventType="touchUpInside" id="T0L-Ep-wXJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Pqv-2A-1bC" firstAttribute="leading" secondItem="Dbe-5F-90G" secondAttribute="leadingMargin" constant="15" id="ANs-yK-GMX"/>
                             <constraint firstItem="Pqv-2A-1bC" firstAttribute="centerY" secondItem="Dbe-5F-90G" secondAttribute="centerY" id="Ie9-HP-QTM"/>
+                            <constraint firstItem="3na-ze-eCQ" firstAttribute="leading" secondItem="Dbe-5F-90G" secondAttribute="leadingMargin" constant="15" id="PW3-dP-tdU"/>
                             <constraint firstItem="Pqv-2A-1bC" firstAttribute="leading" secondItem="aaw-vo-vKU" secondAttribute="leading" id="VLH-lG-zgj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3na-ze-eCQ" secondAttribute="trailing" constant="15" id="e38-ar-hP0"/>
                             <constraint firstItem="Y0n-M2-DVf" firstAttribute="top" secondItem="aaw-vo-vKU" secondAttribute="bottom" constant="54" id="n7T-wG-hxg"/>
                             <constraint firstItem="Pqv-2A-1bC" firstAttribute="trailing" secondItem="aaw-vo-vKU" secondAttribute="trailing" id="nCt-sJ-tet"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Pqv-2A-1bC" secondAttribute="trailing" constant="15" id="qbL-1i-mgq"/>
+                            <constraint firstItem="3na-ze-eCQ" firstAttribute="top" secondItem="Pqv-2A-1bC" secondAttribute="bottom" constant="50" id="qxI-hA-3Bj"/>
                         </constraints>
                     </view>
                 </viewController>

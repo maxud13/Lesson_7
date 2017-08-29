@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
+#import "Protocols.h"
 
 @interface ViewController_2 : UIViewController
 
-@property (nonatomic,weak) id <ViewControllersProtocol> delegat; 
+@property (nonatomic,weak) id <ViewControllersProtocol> delegate;
 
 
 @end

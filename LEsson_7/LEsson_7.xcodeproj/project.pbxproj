@@ -54,6 +54,7 @@
 		6A0D14EA1F55C7AE005C8523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A0D14F61F55CC4E005C8523 /* ViewController_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_2.h; sourceTree = "<group>"; };
 		6A0D14F71F55CC4E005C8523 /* ViewController_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_2.m; sourceTree = "<group>"; };
+		6A3DA8BD1F55E21D0014EC55 /* Protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				6A0D14C31F55C7AD005C8523 /* Supporting Files */,
 				6A0D14F61F55CC4E005C8523 /* ViewController_2.h */,
 				6A0D14F71F55CC4E005C8523 /* ViewController_2.m */,
+				6A3DA8BD1F55E21D0014EC55 /* Protocols.h */,
 			);
 			path = LEsson_7;
 			sourceTree = "<group>";
@@ -515,6 +517,7 @@
 				6A0D14EF1F55C7AE005C8523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0D14F01F55C7AE005C8523 /* Build configuration list for PBXNativeTarget "LEsson_7Tests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +526,7 @@
 				6A0D14F21F55C7AE005C8523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0D14F31F55C7AE005C8523 /* Build configuration list for PBXNativeTarget "LEsson_7UITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +535,7 @@
 				6A0D14F51F55C7AE005C8523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -21,7 +21,15 @@
 
 - (IBAction)GangeColorInViewController:(id)sender
 {
-    [self.delegat changeBackgroundColor];
+    [self.delegate changeBackgroundColor];
+    
+}
+- (IBAction)ChangeColorToRedAction:(id)sender
+{
+    if ([self.delegate respondsToSelector:@selector(changeBackgroundColorToRed)])
+    {
+        [self.delegate changeBackgroundColorToRed];
+    }
 }
 
 - (IBAction)backAcyion:(id)sender
